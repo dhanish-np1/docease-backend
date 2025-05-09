@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",                      /* Specifies the JavaScript version to which TypeScript will compile. */
+    "module": "commonjs",                  /* Specifies the module code generation method. */
+    "strict": true,                        /* Enables all strict type-checking options. */
+    "esModuleInterop": true,               /* Enables compatibility with CommonJS modules. */
+    "forceConsistentCasingInFileNames": true, /* Ensures case-sensitivity in file names. */
+    "skipLibCheck": true,                  /* Skips type checking for all declaration files (.d.ts). */
+    "outDir": "./dist",                     /* Specifies the directory where compiled JavaScript files will be placed. */
+    "rootDir": "./src",
+
+  },
+  "include": [
+    "src/**/*.ts"                           /* Includes all .ts files in the src folder. */
+  ],
+  "exclude": [
+    "node_modules"                          /* Excludes the node_modules folder. */
+  ]
+}
